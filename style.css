@@ -1,0 +1,76 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;/*this is the size of a font*/
+    background-image: url("background.png");
+    background-color: #1ba517;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+}
+
+h1, h3{
+    font-family: 'Slabo 27px', serif;
+}
+#nav {
+    list-style-type:none;
+    margin:-8px;
+    padding:0;
+    overflow: hidden;
+    background-color:transparent;
+}
+#nav li{
+    float: left;
+}
+#nav li a{
+    color: lightblue;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+}
+#nav li a:hover{
+    background-color: red;
+}
+#content{
+    border-style: solid;
+    border-width:4px;
+    border-color: yellow;
+    margin-top: 15px;
+     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color:rgba(55, 86, 42, 0.1)
+}
+table{
+    margin: auto;
+}
+#content ul, #content ol {
+    width: 25%;
+    margin: auto;
+}
+#website{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#communication a{
+    padding-right: 6px;
+    font-size: 25px;
+    color: yellow;
+}
+#communication a:hover{
+    color:orange;
+}
+#coolness{
+    font-size: 80px;
+}
+table{
+    border-width:5px;
+    border-collapse: collapse;
+    border-color:lightblue;
+}
